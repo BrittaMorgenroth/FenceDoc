@@ -1,0 +1,43 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navMenu {
+    display:flex;
+     a{
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 500;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    a:hover {
+        color: #fddb3a;
+    }
+    .dotContainer{
+        width:100%;
+        display: flex;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        background: #fddb3a;
+        border-radius: 50%;
+
+
+        opacity: 0;
+    }
+      a:hover ~ .dotContainer .dot {
+        opacity: 1;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      }
+      a:hover ~ .dotContainer {
+        justify-content: center;
+      }
+
+}
+

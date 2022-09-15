@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+$maincolor: blue;
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  color: $maincolor;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding:12px 32px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+
+}
