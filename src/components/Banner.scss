@@ -1,0 +1,40 @@
+@import '../index.scss';
+.hero {
+    height:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position-y: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/bannerImg.jpg);
+    background-position: 50% 50%;
+    margin-top:-80px;
+
+    .content{
+        max-width:600px;
+        margin: 20px;
+
+        .lineBreak {
+            width: 97px;
+    position: relative;
+    transform-origin: left center 0;
+    margin: 30px auto 0 0;
+    border:3px solid $maincolor;
+        }
+
+        h1, p{
+            color:white;
+            padding: 15px 0 ;
+        }
+        h2{
+color: $maincolor;
+        }
+    }
+    
+    .imgBanner {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+}
